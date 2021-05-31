@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-30T16:28:58" hostname="aswin-laptop" time="0.034">
+<testsuite name="com.bridgelabz.UserRegistrationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-31T14:07:59" hostname="aswin-laptop" time="0.004">
   <properties/>
-  <testcase name="givenFirstName_whenProper_returnTrue()" classname="com.bridgelabz.UserRegistrationTest" time="0.034"/>
+  <testcase name="givenSecondName_whenProper_returnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.002"/>
+  <testcase name="givenFirstName_whenProper_returnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenSecondName_whenShort_returnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenShort_returnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
