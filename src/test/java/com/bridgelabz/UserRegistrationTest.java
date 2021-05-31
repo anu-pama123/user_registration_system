@@ -35,5 +35,18 @@ public class UserRegistrationTest
         boolean status = userRegistration.validateSecondName("An");
         Assert.assertFalse(status);
     }
-
+    @Test
+    public void givenPhoneNumber_whenCorrect_returnTrue()
+    {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean status = userRegistration.validatePhoneNumber("91 8086127192");
+        Assert.assertFalse(status);
+    }
+    @Test
+    public void givenPhoneNumber_whenIncorrect_returnFalse()
+    {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean status = userRegistration.validatePhoneNumber("9605132016");
+        Assert.assertFalse(status);
+    }
 }
