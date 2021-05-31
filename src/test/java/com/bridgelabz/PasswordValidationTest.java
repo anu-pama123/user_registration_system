@@ -9,7 +9,7 @@ public class PasswordValidationTest
     public void givenPassword_WhenCorrect_ReturnsTrue()
     {
         UserRegistration userRegistration = new UserRegistration();
-        boolean status = userRegistration.validatePassword("passwordCheck");
+        boolean status = userRegistration.validatePassword("passWrdCheck");
         Assert.assertTrue(status);
     }
 
