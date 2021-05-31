@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-31T15:06:07" hostname="aswin-laptop" time="0.002">
-  <properties/>
-  <testcase name="givenPhoneNumber_whenIncorrect_returnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
