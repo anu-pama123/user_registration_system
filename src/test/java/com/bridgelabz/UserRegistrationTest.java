@@ -35,4 +35,5 @@ public class UserRegistrationTest
         boolean status = userRegistration.validateSecondName("An");
         Assert.assertFalse(status);
     }
+
 }

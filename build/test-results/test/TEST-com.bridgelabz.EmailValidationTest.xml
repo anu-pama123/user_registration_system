@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.EmailValidationTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-05-31T14:52:35" hostname="aswin-laptop" time="0.027">
+  <properties/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[0]" classname="com.bridgelabz.EmailValidationTest" time="0.002"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[1]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[2]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[3]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[4]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[5]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[6]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[7]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[8]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[9]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[10]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[11]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[12]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[13]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[14]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[15]" classname="com.bridgelabz.EmailValidationTest" time="0.002"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[16]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[17]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[18]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[19]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[20]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenEmail_ReturnsResultAsPerParameter[21]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
