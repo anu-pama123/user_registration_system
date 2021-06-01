@@ -39,7 +39,7 @@ public class UserRegistrationTest
     public void givenPhoneNumber_whenCorrect_returnTrue()
     {
         UserRegistration userRegistration = new UserRegistration();
-        boolean status = userRegistration.validatePhoneNumber("91 8086127192");
+        boolean status = userRegistration.validatePhoneNumber("91 8086127102");
         Assert.assertFalse(status);
     }
     @Test
