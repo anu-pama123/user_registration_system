@@ -12,7 +12,6 @@ public class UserRegistrationTest
         boolean status = userRegistration.validateFirstName("Anupama");
         Assert.assertTrue(status);
     }
-
     @Test
     public void givenFirstName_whenShort_returnFalse()
     {
