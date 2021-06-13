@@ -1,5 +1,5 @@
 package com.bridgelabz;
 
-interface UserRegistrationPasswordValidator {
+interface UserRegistrationValidator {
     public String validate(String input);
 }

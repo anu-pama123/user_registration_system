@@ -34,7 +34,7 @@ public class EmailValidationTest {
 
     @Test
     public void givenPassword_WhenIncorrect_ReturnsFalse() {
-        UserRegistrationPasswordValidator obj = (String input) -> {
+        UserRegistrationValidator emailValidator = (String input) -> {
             final String emailPattern = "^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+([.][a-zA-Z]{2,3}){1,2}$";
             Pattern pattern = Pattern.compile(emailPattern);
             Matcher matcher = pattern.matcher(input);
@@ -46,6 +46,6 @@ public class EmailValidationTest {
             } ;
             return r;
         };
-        Assert.assertEquals("true",obj.validate(email));
+        Assert.assertEquals("true",emailValidator.validate(email));
     }
 }

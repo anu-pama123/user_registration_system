@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.EmailValidationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-13T18:01:23" hostname="aswin-laptop" time="0.01">
+<testsuite name="com.bridgelabz.EmailValidationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-13T18:51:07" hostname="aswin-laptop" time="0.01">
   <properties/>
   <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[0]" classname="com.bridgelabz.EmailValidationTest" time="0.002"/>
   <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[1]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
   <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[2]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
-  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[3]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
-  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[4]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
-  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[5]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
-  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[6]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
-  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[7]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[3]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[4]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[5]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[6]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[7]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
   <testcase name="givenPassword_WhenIncorrect_ReturnsFalse[8]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
