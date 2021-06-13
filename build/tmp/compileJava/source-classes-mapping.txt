@@ -2,4 +2,4 @@ com/bridgelabz/UserRegistrationException.java
  com.bridgelabz.UserRegistrationException
  com.bridgelabz.UserRegistrationException$ExceptionType
 com/bridgelabz/UserRegistration.java
- com.bridgelabz.UserRegistration
+ com.bridgelabz.UserRegistrationPasswordValidator

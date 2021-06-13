@@ -3,47 +3,42 @@ package com.bridgelabz;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class PasswordValidationTest
-{
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class PasswordValidationTest {
+    final String passwordpattern = "^(?=.*?[A-Z])(?=.*?[0-9])(?=.*?[@#$%^&-+=!]){1}[a-zA-Z0-9@#$%^&-+=!]{8,}$";
+
     @Test
-    public void givenPassword_WhenCorrect_ReturnsTrue()
-    {
-        UserRegistration userRegistration = new UserRegistration();
-        try
-        {
-            userRegistration.validatePassword("Anupama#4");
-        }
-        catch (UserRegistrationException e)
-        {
-            Assert.assertEquals("True",e.getType());
-        }
+    public void givenPassword_WhenCorrect_ReturnsTrue() {
+        UserRegistrationPasswordValidator obj = (String input) -> {
+            Pattern pattern = Pattern.compile(passwordpattern);
+            Matcher matcher = pattern.matcher(input);
+            String r;
+            if (matcher.find()) {
+                r = "True";
+            } else {
+                r = "False";
+            } ;
+            return r;
+        };
+        Assert.assertEquals("False", obj.validate("anupama1"));
     }
 
     @Test
     public void givenPassword_WhenIncorrect_ReturnsFalse()
     {
-        UserRegistration userRegistration = new UserRegistration();
-        try
-        {
-            userRegistration.validatePassword("anupama");
-        }
-        catch (UserRegistrationException e)
-        {
-            Assert.assertEquals(UserRegistrationException.ExceptionType.ENTERED_INVALID, e.getType());
-        }
-    }
-    @Test
-    public void givenPassword_WhenNull_ReturnsFalse()
-    {
-        UserRegistration userRegistration = new UserRegistration();
-        try
-        {
-            String password;
-            userRegistration.validatePassword(null);
-        }
-        catch (UserRegistrationException e)
-        {
-            Assert.assertEquals(UserRegistrationException.ExceptionType.ENTERED_NULL, e.getType());
-        }
+        UserRegistrationPasswordValidator obj = (String input) -> {
+            Pattern pattern = Pattern.compile(passwordpattern);
+            Matcher matcher = pattern.matcher(input);
+            String r;
+            if (matcher.find()) {
+                r = "True";
+            } else {
+                r = "False";
+            } ;
+            return r;
+        };
+        Assert.assertEquals("False", obj.validate("anupama1"));
     }
 }

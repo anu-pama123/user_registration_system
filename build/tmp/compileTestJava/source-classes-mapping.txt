@@ -1,6 +1,6 @@
-com/bridgelabz/EmailValidationTest.java
- com.bridgelabz.EmailValidationTest
 com/bridgelabz/PasswordValidationTest.java
  com.bridgelabz.PasswordValidationTest
 com/bridgelabz/UserRegistrationTest.java
  com.bridgelabz.UserRegistrationTest
+com/bridgelabz/EmailValidationTest.java
+ com.bridgelabz.EmailValidationTest
